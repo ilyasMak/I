@@ -52,9 +52,9 @@
               <div class="w3-dropdown-hover">
                 <button class="w3-button w3-black" data-i18n="lang" >Francais </button>
                 <div class="w3-dropdown-content w3-bar-block w3-border">
-                  <a href="#" class="w3-bar-item w3-button" onclick="changeLanguage('fr')"><span class="flag-icon flag-icon-mf flag-icon-squared"></span>  Francais</a>
-                    <a href="#" class="w3-bar-item w3-button" onclick="changeLanguage('en')"><span class="flag-icon flag-icon-um flag-icon-squared"></span>  English</a>
-                    <a href="#" class="w3-bar-item w3-button" onclick="changeLanguage('ar')"><span class="flag-icon flag-icon-ma flag-icon-squared"></span >  العربية</a>
+                  <a href="" class="w3-bar-item w3-button" onclick="changeLanguage('fr')"><span class="flag-icon flag-icon-mf flag-icon-squared"></span>  Francais</a>
+                    <a href="" class="w3-bar-item w3-button" onclick="changeLanguage('en')"><span class="flag-icon flag-icon-um flag-icon-squared"></span>  English</a>
+                    <a href="" class="w3-bar-item w3-button" onclick="changeLanguage('ar')"><span class="flag-icon flag-icon-ma flag-icon-squared"></span >  العربية</a>
                 </div>
             </div>
             
@@ -162,8 +162,8 @@
 
        <div class="profile-details">
             <div class="intro">
-               <h2>ILYAS MAKHLOUL</h2>
-               <h4>Etudiant ingénieurs</h4>
+               <h2 data-i18n="nom" >ILYAS MAKHLOUL</h2>
+               <h4 data-i18n="etud" >Etudiant ingénieurs</h4>
                <div class="social">
                    <a href="https://www.facebook.com/profile.php?id=100008452383761"><i class="fab fa-facebook" style="color:var(--blue)"></i></a>
                    <a href="https://twitter.com/ilyas_makhloul?t=tm3yvR_egETBF4s4HyvDFA&s=09"><i class="fab fa-twitter"  style="color:var(--skyblue)"></i></a>
@@ -178,7 +178,7 @@
                        <i class="fa fa-phone"  style="color:var(--dark-magenta)"></i>
                     </div>
                     <div class="content">
-                       <span>Téléphone</span>
+                       <span data-i18n="tel">Téléphone</span>
                        <h5>+212 6 19 70 61 44</h5>
                     </div>
                </div>
@@ -188,7 +188,7 @@
                       <i class="fa fa-envelope-open"  style="color:var(--light-green)"></i>
                    </div>
                    <div class="content">
-                      <span>Email</span>
+                      <span data-i18n="email">Email</span>
                       <p>makhloul.ilyas@usmba.ac.ma</p>
                    </div>
               </div>
@@ -198,36 +198,36 @@
                   <i class="fa fa-map-marker"  style="color:var(--light-purple)"></i>
                </div>
                <div class="content">
-                  <span>Localisation</span>
-                  <h5>Fes , maroc </h5>
+                  <span data-i18n="loc">Localisation</span>
+                  <h5 data-i18n="addr">Fes , maroc </h5>
                </div>
             </div>
 
        </div>
        <a href="docs/CVA_ILYAS_MAKHLOUL.pdf">
-          <button class="download-btn"> <i class="fa fa-download"></i> Télecharger CV en anglais</button>
+          <button class="download-btn" data-i18n="DownCVA"> <i class="fa fa-download"></i> Télecharger CV en anglais</button>
         </a></div>
   </div>
 
   <!----about section ----->
   <div class="about">
-      <h1>Profile</h1>
+      <h1 data-i18n="prof">Profile</h1>
 
-      <p> Je suis élève ingénieur en génie informatique en deuxième année de cycle ingénieur à l'École Nationale des Sciences Appliquées de Fès (bac+4) , je suis un programmeur passionné qui maîtrise plusieurs langages de programmation.
-     </p>
+      <p data-i18n="prof1"> Je suis élève ingénieur en génie informatique en deuxième année de cycle ingénieur à l'École Nationale des Sciences Appliquées de Fès (bac+4) , je suis un programmeur passionné qui maîtrise plusieurs langages de programmation.
+     </p >
 
-     <p>
+     <p data-i18n="prof2">
       Mon intérêt particulier se porte sur le développement des application web/andoid et des jeux. et tous ce qu’est AI - Machine learning - Deep Learning
      </p>
-     <h2>Qui ce que je fait !!!</h2>
+     <h2 data-i18n="do">Qui ce que je fait !!!</h2>
      <div class="work">
         <div class="workbox">
             <div class="icon">
                <img src="images/ui.svg" alt="">
             </div>
             <div class="desc">
-               <h3>AI Machine Learning</h3>
-               <p>je suis entrain d'apprendre les technologie en relation avec AI , machine learning (régression/classification) en python .</p>
+               <h3 data-i18n="AI">AI Machine Learning</h3>
+               <p data-i18n="AIdesc">je suis entrain d'apprendre les technologie en relation avec AI , machine learning (régression/classification) en python .</p>
             </div>
         </div>
 
@@ -236,8 +236,8 @@
               <img src="images/app.svg" alt="">
            </div>
            <div class="desc">
-              <h3>App Developement</h3>
-              <p>J'ai développé plusieurs applications bureautiques et pour Android. Vous pouvez les voir dans la section des projets ci-dessous.</p>
+              <h3 data-i18n="AppDev">App Developement</h3>
+              <p data-i18n="AppDevDesc">J'ai développé plusieurs applications bureautiques et pour Android. Vous pouvez les voir dans la section des projets ci-dessous.</p>
            </div>
        </div>
 
@@ -246,8 +246,8 @@
               <img src="images/api.svg" alt="">
            </div>
            <div class="desc">
-              <h3>API Developement</h3>
-              <p>J'ai déjà travaillé avec des API d'hôtels lors du développement de EasyStay pendant mon stage d'initiation.</p>
+              <h3  data-i18n="API">API Developement</h3>
+              <p data-i18n="APIdesc">J'ai déjà travaillé avec des API d'hôtels lors du développement de EasyStay pendant mon stage d'initiation.</p>
            </div>
        </div>
 
@@ -256,8 +256,8 @@
               <img src="images/web.svg" alt="">
            </div>
            <div class="desc">
-              <h3>Web Developement</h3>
-              <p>J'ai développé plusieurs applications web en utilisant différentes technologies telles que ASP.NET Core et Java EE.</p>
+              <h3 data-i18n="WebDev">Web Developement</h3>
+              <p data-i18n="WebDevDesc">J'ai développé plusieurs applications web en utilisant différentes technologies telles que ASP.NET Core et Java EE.</p>
            </div>
        </div>
      </div>
@@ -347,8 +347,8 @@
             <div class="rows">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="about-info">
-                        <h3>Mes Compétences</h3>
-                        <p style="text-align: justify;">Je suis un développeur web expérimenté avec une expertise en HTML, CSS et JavaScript, ainsi que des frameworks modernes comme Bootstrap. J'ai également une expérience significative en développement back-end avec Python, PHP et Java, et en gestion de bases de données comme MySQL et MongoDB. Mes compétences s'étendent également à l'intelligence artificielle, notamment avec TensorFlow pour le machine learning, et en business intelligence avec des outils comme Talend Open Studio. Avec cette combinaison de compétences, je suis capable de concevoir et de développer des solutions logicielles innovantes pour divers projets.</p>
+                        <h3 data-i18n="Comp">Mes Compétences</h3>
+                        <p style="text-align: justify;" data-i18n="CompDesc">Je suis un développeur web expérimenté avec une expertise en HTML, CSS et JavaScript, ainsi que des frameworks modernes comme Bootstrap. J'ai également une expérience significative en développement back-end avec Python, PHP et Java, et en gestion de bases de données comme MySQL et MongoDB. Mes compétences s'étendent également à l'intelligence artificielle, notamment avec TensorFlow pour le machine learning, et en business intelligence avec des outils comme Talend Open Studio. Avec cette combinaison de compétences, je suis capable de concevoir et de développer des solutions logicielles innovantes pour divers projets.</p>
                       </p>
                         <div class="about-btn">
                             <button class="btn"><a href="https://www.linkedin.com/in/ilyas-makhloul-95508a244/" style="color : white">LinkedIn</a>       <i class="fab fa-linkedin"></i></button>
@@ -511,7 +511,7 @@
           <div class="hero-text">
             <h1><span>Projets et Parcours de</span><br>ILYAS.</h1>
             <h3>Application des connaissances</h3>
-            <a href="docs/CVA_ILYAS_MAKHLOUL.pdf" class="btn btn-lg btn-primary">Télecharger CV en anglais</a>
+            <a href="docs/CVA_ILYAS_MAKHLOUL.pdf" class="btn btn-lg btn-primary" data-i18n="DownCVA">Télecharger CV en anglais</a>
            <style>
         
 
@@ -777,37 +777,37 @@ Stage d'initiation au sein de ARTIweb
           <div class="swiper-container testimonial-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide testimonial-box yellow">
-                <h1>Baccalauréat en Science Mathématiques B</h1>
-                <p>J'ai décroché mon bac avec mention bien, une véritable fierté pour moi. Cela récompense mes efforts et ma détermination durant mes années d'études. C'est une grande source de motivation pour continuer à exceller et poursuivre mes ambitions académiques.</p>
+                <h1 data-i18n="Bac">Baccalauréat en Science Mathématiques B</h1>
+                <p data-i18n="BacDesc">J'ai décroché mon bac avec mention bien, une véritable fierté pour moi. Cela récompense mes efforts et ma détermination durant mes années d'études. C'est une grande source de motivation pour continuer à exceller et poursuivre mes ambitions académiques.</p>
                 <div class="text-right">
-                  <p class="name">- Lycée Ibn Alhaytam</p>
-                  <p class="designation">2019-2020</p>
+                  <p class="name" data-i18n="BacPlace">- Lycée Ibn Alhaytam</p>
+                  <p class="designation" >2019-2020</p>
                 </div>
               </div>
               <div class="swiper-slide testimonial-box purple">
-                <h1>Ecole Nationale des Sciences Appliquée des Fés</h1>
-                <p>
+                <h1 data-i18n="ensa">Ecole Nationale des Sciences Appliquée des Fés</h1>
+                <p data-i18n="ensaDesc">
                     J'ai intégré l'École Nationale de Sciences Appliquées pour devenir ingénieur, en respectant les critères d'admission requis. C'est une étape importante dans mon parcours académique et une opportunité que je saisis avec enthousiasme. Je suis motivé à relever les défis qui m'attendent et à acquérir les compétences nécessaires pour réussir dans le domaine de l'ingénierie.</p>
                 <div class="text-right">
-                  <p class="name">- ENSAF</p>
-                  <p class="designation">2020</p>
+                  <p class="name" data-i18n="ensaPlace">- ENSAF</p>
+                  <p class="designation" >2020</p>
                 </div>
               </div>
               <div class="swiper-slide testimonial-box blue">
-                <h1>spécialité en Génie Informatique
+                <h1 data-i18n="sp">spécialité en Génie Informatique
                 </h1>
-                <p>
+                <p data-i18n="spDesc">
                     Après deux années en classe préparatoire scientifique, j'ai intégré la spécialité Génie Informatique dans mon école d'ingénieurs en étant classé parmi les 40 premiers de ma promotion. C'est une étape importante dans mon parcours académique et je suis ravi d'avoir l'opportunité de me plonger dans l'étude approfondie de l'informatique. Je suis motivé à relever les défis qui se présenteront à moi et à développer mes compétences pour devenir un ingénieur en informatique compétent et accompli.</p>
                 <div class="text-right">
-                  <p class="name">- ENSAF</p>
+                  <p class="name" data-i18n="ensaPlace">- ENSAF</p>
                   <p class="designation">2022</p>
                 </div>
               </div>
               <div class="swiper-slide testimonial-box pink">
-                <h1>Diplomé en Génie Informatique</h1>
-                <p>D'ici 2025, j'aspire à obtenir mon diplôme d'ingénieur en Génie Informatique de l'École Nationale des Sciences Appliquées de Fès (ENSAF). Je suis résolu à suivre avec détermination et engagement le programme d'études afin d'acquérir les compétences nécessaires pour exceller dans ce domaine en constante évolution. Mon ambition est de contribuer à l'innovation technologique et de devenir un professionnel compétent et accompli dans le domaine de l'informatique.</p>
+                <h1  data-i18n="dip">Diplomé en Génie Informatique</h1>
+                <p data-i18n="dipDesc">D'ici 2025, j'aspire à obtenir mon diplôme d'ingénieur en Génie Informatique de l'École Nationale des Sciences Appliquées de Fès (ENSAF). Je suis résolu à suivre avec détermination et engagement le programme d'études afin d'acquérir les compétences nécessaires pour exceller dans ce domaine en constante évolution. Mon ambition est de contribuer à l'innovation technologique et de devenir un professionnel compétent et accompli dans le domaine de l'informatique.</p>
                 <div class="text-right">
-                  <p class="name">- ENSAF</p>
+                  <p class="name" data-i18n="ensaPlace">- ENSAF</p>
                   <p class="designation">2025</p>
                 </div>
               </div>
