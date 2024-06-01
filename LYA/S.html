@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/i18next@21.6.15/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-browser-languagedetector@6.1.3/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="https://unpkg.com/jquery-i18next@1.2.1/dist/umd/jquery-i18next.min.js"></script>
+
+
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,6 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <link href="css/style.css" rel="stylesheet">
+
     <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
   
     <!-- Google Font -->
@@ -28,26 +36,54 @@
     <header class="header" id="top">
         <!---->
         <div class="w3-top">
+
             <div class="w3-bar w3-black w3-card header">
+
+
+           
+
+
               <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
               <a href="#top" class="w3-bar-item w3-button w3-padding-large " >ILYAS.</a>
+             
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+
+              <div class="w3-dropdown-hover">
+                <button class="w3-button w3-black" data-i18n="lang" >Francais </button>
+                <div class="w3-dropdown-content w3-bar-block w3-border">
+                  <a href="#" class="w3-bar-item w3-button" onclick="changeLanguage('fr')"><span class="flag-icon flag-icon-mf flag-icon-squared"></span>  Francais</a>
+                    <a href="#" class="w3-bar-item w3-button" onclick="changeLanguage('en')"><span class="flag-icon flag-icon-um flag-icon-squared"></span>  English</a>
+                    <a href="#" class="w3-bar-item w3-button" onclick="changeLanguage('ar')"><span class="flag-icon flag-icon-ma flag-icon-squared"></span >  العربية</a>
+                </div>
+            </div>
+            
+             
+             
               <span class="w3-right">
 
+              
+              
+
              
-              <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hide-small" >Accueil</a>
-              <a href="#gallery" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Personelle</a>
-              <a href="#testimony" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Professionnel</a>
-              <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+              <a href="#home" data-i18n="home"  class="w3-bar-item w3-button w3-padding-large w3-hide-small" >Accueil</a>
+              
+              <a href="#gallery" data-i18n="pers"   class="w3-bar-item w3-button w3-padding-large w3-hide-small">Personelle</a>
+              <a href="#testimony" data-i18n="prof"  class="w3-bar-item w3-button w3-padding-large w3-hide-small">Professionnel</a>
+              <a href="#contact" data-i18n="contact"  class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
             </span>
+
+
+    
             </div>
           </div>
   
           <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
           <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px; z-index : 1000 ;">
-            <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Accueil</a>
-            <a href="#gallery" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Personelle</a>
-            <a href="#testimony" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Professionnel</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+            <a href="#home" data-i18n="home"  class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Accueil</a>
+            <a href="#gallery" data-i18n="pers"  class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Personelle</a>
+            <a href="#testimony" data-i18n="prof" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Professionnel</a>
+            <a href="#contact" data-i18n="contact"  class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
           </div>
     </header>
 <main>
@@ -57,13 +93,13 @@
     <div  class="hero-section w3-animate-left " id="home">
         <div class="hero-section-main">
            <div class="hero-section-into-text w3-margin-top">
-               <h1 class="w3-text-white">ILYAS MAKHLOUL</h1>
+               <h1 class="w3-text-white" data-i18n="nom">ILYAS MAKHLOUL</h1>
               <p class="w3-right w3-text-white w3-small w3-hide-small hero-qoute ">
                 "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." - Martin Fowler
 
               </p>
                <div class="w3-text-white l " style="margin-top:60px">
-                 <p ><strong>Etudiant Ingénieur</strong> en Génie Informatique <br>   Ecole Nationale des Sciences Appliquée Fés , et <strong>je suis à la recherche d'un stage d'application PFA (2mois pour l'été 2024)</strong> </p>
+                 <p data-i18n="statut"><strong>Etudiant Ingénieur</strong> en Génie Informatique <br>   Ecole Nationale des Sciences Appliquée Fés , et <strong>je suis à la recherche d'un stage d'application PFA (2mois pour l'été 2024)</strong> </p>
                  <div class="w3-margin-top">
 
   
@@ -88,11 +124,11 @@
             </div>
                </div>
                <a href="#new-arrivals" class="" >
-                <button class="w3-text-white w3-small w3-round w3-red w3-btn w3-margin-top" id="CV" ><a href="docs/CV_ILYAS_MAKHLOUL.pdf" style="color:#fff">Télécharger CV </a>
+                <button class="w3-text-white w3-small w3-round w3-red w3-btn w3-margin-top" id="CV" ><a href="docs/CV_ILYAS_MAKHLOUL.pdf" style="color:#fff" data-i18n="DownCV">Télécharger CV </a>
                   
                 </button>
 
-                   <button class="w3-text-white w3-small w3-round w3-red w3-btn w3-margin-top" id="CV" ><a href="docs/Attest_Stage.pdf" style="color:#fff">Demande de Stage</a>
+                   <button class="w3-text-white w3-small w3-round w3-red w3-btn w3-margin-top" id="CV" ><a href="docs/Attest_Stage.pdf" style="color:#fff" data-i18n="DownST">Demande de Stage</a>
                   
                 </button>
                </a>
@@ -291,6 +327,8 @@
 <!-- ################################################################################################ -->
 </div>
 <!-- JAVASCRIPTS -->
+<script src="js/lang.js" defer></script>
+
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
