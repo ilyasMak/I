@@ -136,6 +136,51 @@ const resources = {
     
         }
     }
+
+
+    es: {
+        translation: {
+            lang: 'español',
+            home: 'Inicio',
+            pers: 'Personal',
+            prof: 'Profesional',
+            contact: 'Contacto',
+            nom: "ILYAS MAKHLOUL",
+            statut: "Estudiante de Ingeniería en Informática en la Escuela Nacional de Ciencias Aplicadas de Fes, y estoy buscando una pasantía de aplicación PFA (2 meses para el verano de 2024)",
+            DownCV: 'Descargar CV',
+            DownST: 'Solicitud de pasantía',
+            etud: 'Estudiante de ingeniería',
+            tel: 'Teléfono',
+            email: 'Correo electrónico',
+            loc: 'Ubicación',
+            addr: 'Fes, Marruecos',
+            DownCVA: 'Descargar CV en inglés',
+            prof: 'Perfil',
+            prof1: "Soy estudiante de ingeniería en informática en el segundo año del ciclo de ingeniería en la Escuela Nacional de Ciencias Aplicadas de Fes (bac+4), soy un programador apasionado que domina varios lenguajes de programación.",
+            prof2: "Mi interés particular se centra en el desarrollo de aplicaciones web/Android y juegos, y en todo lo relacionado con AI - Machine learning - Deep Learning",
+            do: "¿Qué hago?",
+            AI: "Aprendizaje automático de inteligencia artificial",
+            AIdesc: "Actualmente estoy aprendiendo tecnologías relacionadas con AI, aprendizaje automático (regresión/clasificación) en Python.",
+            AppDev: "Desarrollo de aplicaciones",
+            AppDevDesc: "He desarrollado varias aplicaciones de escritorio y para Android. Puedes verlas en la sección de proyectos a continuación.",
+            API: 'Desarrollo de API',
+            APIdesc: "Ya he trabajado con API de hoteles durante el desarrollo de EasyStay durante mi período de prácticas.",
+            WebDev: "Desarrollo web",
+            WebDevDesc: "He desarrollado varias aplicaciones web utilizando diversas tecnologías como ASP.NET Core y Java EE...",
+            Comp: "Mis habilidades",
+            CompDesc: "Soy un desarrollador web experimentado con experiencia en HTML, CSS y JavaScript, así como en frameworks modernos como Bootstrap. También tengo experiencia significativa en desarrollo backend con Python, PHP y Java, y en gestión de bases de datos como MySQL y MongoDB. Mis habilidades también se extienden a la inteligencia artificial, particularmente con TensorFlow para el aprendizaje automático, y en inteligencia empresarial con herramientas como Talend Open Studio. Con esta combinación de habilidades, soy capaz de diseñar y desarrollar soluciones de software innovadoras para diversos proyectos.",
+            Bac: "Licenciatura en Matemáticas y Ciencias",
+            BacDesc: "Obtuve mi licenciatura con honores, un verdadero orgullo para mí. Premia mis esfuerzos y determinación durante mis años de estudio. Es una gran fuente de motivación para seguir sobresaliendo y perseguir mis ambiciones académicas.",
+            BacPlace: "- Instituto Ibn Alhaytam",
+            ensa: "Escuela Nacional de Ciencias Aplicadas de Fes",
+            ensaDesc: "Me uní a la Escuela Nacional de Ciencias Aplicadas para convertirme en ingeniero, cumpliendo con los criterios de admisión requeridos. Es un paso importante en mi trayectoria académica y una oportunidad que abrazo con entusiasmo. Estoy motivado para enfrentar los desafíos que se avecinan y adquirir las habilidades necesarias para tener éxito en el campo de la ingeniería.",
+            ensaPlace: "- ENSAF",
+            sp: "Especialización en Ingeniería Informática",
+            spDesc: "Después de dos años en la clase preparatoria científica, me uní a la especialización en Ingeniería Informática en mi escuela de ingeniería, clasificándome entre los 40 mejores de mi promoción. Es un paso significativo en mi trayectoria académica y estoy encantado de tener la oportunidad de sumergirme en el estudio profundo de la informática. Estoy motivado para enfrentar los desafíos que se me presenten y desarrollar mis habilidades para convertirme en un ingeniero informático competente y exitoso.",
+            dip: "Graduado en Ingeniería Informática",
+            dipDesc: "Para 2025, Insha'Allah, aspiro a obtener mi licenciatura en Ingeniería Informática de la Escuela Nacional de Ciencias Aplicadas de Fes (ENSAF). Estoy decidido a seguir el programa de estudios con determinación y compromiso para adquirir las habilidades necesarias para sobresalir en este campo en constante evolución. Mi ambición es contribuir a la innov
+        }
+}
 };
 
 
