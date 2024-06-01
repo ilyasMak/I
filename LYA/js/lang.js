@@ -135,7 +135,7 @@ const resources = {
       
     
         }
-    }
+    },
 
 
     es: {
