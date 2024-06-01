@@ -178,9 +178,53 @@ const resources = {
             sp: "Especialización en Ingeniería Informática",
             spDesc: "Después de dos años en la clase preparatoria científica, me uní a la especialización en Ingeniería Informática en mi escuela de ingeniería, clasificándome entre los 40 mejores de mi promoción. Es un paso significativo en mi trayectoria académica y estoy encantado de tener la oportunidad de sumergirme en el estudio profundo de la informática. Estoy motivado para enfrentar los desafíos que se me presenten y desarrollar mis habilidades para convertirme en un ingeniero informático competente y exitoso.",
             dip: "Graduado en Ingeniería Informática",
-            dipDesc: "Para 2025, Insha'Allah, aspiro a obtener mi licenciatura en Ingeniería Informática de la Escuela Nacional de Ciencias Aplicadas de Fes (ENSAF). Estoy decidido a seguir el programa de estudios con determinación y compromiso para adquirir las habilidades necesarias para sobresalir en este campo en constante evolución. Mi ambición es contribuir a la innov
+            dipDesc: "Para 2025, Insha'Allah, aspiro a obtener mi licenciatura en Ingeniería Informática de la Escuela Nacional de Ciencias Aplicadas de Fes (ENSAF). Estoy decidido a seguir el programa de estudios con determinación y compromiso para adquirir las habilidades necesarias para sobresalir en este campo en constante evolución. Mi ambición es contribuir a la innov"
         }
+},
+    al:{
+    "translation": {
+        "lang": "Deutsch",
+        "home": "Startseite",
+        "pers": "Persönlich",
+        "prof": "Beruflich",
+        "contact": "Kontakt",
+        "nom": "ILYAS MAKHLOUL",
+        "statut": "Ingenieurstudium für Informatik an der Ecole Nationale des Sciences Appliquée Fés. Ich suche nach einem Praktikum im Rahmen des PFA (2 Monate für den Sommer 2024).",
+        "DownCV": "Lebenslauf herunterladen",
+        "DownST": "Praktikumsanfrage",
+        "etud": "Ingenieurstudent",
+        "tel": "Telefon",
+        "email": "E-Mail",
+        "loc": "Ort",
+        "addr": "Fès, Marokko",
+        "DownCVA": "Lebenslauf auf Englisch herunterladen",
+        "prof": "Profil",
+        "prof1": "Ich bin Student im zweiten Jahr des Ingenieurstudiums für Informatik an der Ecole Nationale des Sciences Appliquées de Fès (Bachelor +4). Ich bin ein leidenschaftlicher Programmierer, der mehrere Programmiersprachen beherrscht.",
+        "prof2": "Mein besonderes Interesse gilt der Entwicklung von Web-/Android-Anwendungen und Spielen sowie allem im Bereich KI, maschinelles Lernen und Deep Learning.",
+        "do": "Was ich mache!!!",
+        "AI": "KI und maschinelles Lernen",
+        "AIdesc": "Ich lerne derzeit Technologien im Zusammenhang mit KI und maschinellem Lernen (Regression/Klassifikation) in Python.",
+        "AppDev": "App-Entwicklung",
+        "AppDevDesc": "Ich habe mehrere Desktop- und Android-Anwendungen entwickelt. Sie können sie im Abschnitt Projekte unten sehen.",
+        "API": "API-Entwicklung",
+        "APIdesc": "Ich habe bereits mit Hotel-APIs während der Entwicklung von EasyStay während meines Einführungspraktikums gearbeitet.",
+        "WebDev": "Webentwicklung",
+        "WebDevDesc": "Ich habe mehrere Webanwendungen unter Verwendung verschiedener Technologien wie ASP.NET Core und Java EE entwickelt...",
+        "Comp": "Meine Fähigkeiten",
+        "CompDesc": "Ich bin ein erfahrener Webentwickler mit Fachkenntnissen in HTML, CSS und JavaScript sowie modernen Frameworks wie Bootstrap. Ich habe auch umfangreiche Erfahrung in der Backend-Entwicklung mit Python, PHP und Java sowie in der Datenbankverwaltung mit MySQL und MongoDB. Meine Fähigkeiten erstrecken sich auch auf künstliche Intelligenz, insbesondere mit TensorFlow für maschinelles Lernen, und auf Business Intelligence mit Tools wie Talend Open Studio. Mit dieser Kombination von Fähigkeiten bin ich in der Lage, innovative Softwarelösungen für verschiedene Projekte zu entwerfen und zu entwickeln.",
+        "Bac": "Abitur in Mathematik und Naturwissenschaften",
+        "BacDesc": "Ich habe mein Abitur mit Auszeichnung bestanden, eine wahre Ehre für mich. Dies belohnt meine Anstrengungen und Entschlossenheit während meiner Schuljahre. Es ist eine große Motivation, weiterhin herausragende Leistungen zu erbringen und meine akademischen Ambitionen fortzusetzen.",
+        "BacPlace": "- Lycée Ibn Alhaytam",
+        "ensa": "École Nationale des Sciences Appliquées de Fès",
+        "ensaDesc": "Ich bin der École Nationale des Sciences Appliquées beigetreten, um Ingenieur zu werden, unter Berücksichtigung der erforderlichen Zulassungskriterien. Dies ist ein wichtiger Schritt in meinem akademischen Werdegang und eine Gelegenheit, die ich mit Begeisterung ergreife. Ich bin motiviert, die bevorstehenden Herausforderungen anzunehmen und die erforderlichen Fähigkeiten zu erwerben, um im Ingenieurwesen erfolgreich zu sein.",
+        "ensaPlace": "- ENSAF",
+        "sp": "Spezialisierung in Informatik",
+        "spDesc": "Nach zwei Jahren in einem wissenschaftlichen Vorbereitungskurs habe ich mich für die Spezialisierung Informatik an meiner Ingenieursschule entschieden und gehöre zu den besten 40 meiner Klasse. Dies ist ein wichtiger Meilenstein in meiner akademischen Laufbahn, und ich freue mich darauf, mich intensiv mit Informatik zu beschäftigen. Ich bin motiviert, den Herausforderungen zu begegnen, die auf mich zukommen, und meine Fähigkeiten zu entwickeln, um ein kompetenter und erfolgreicher Informatikingenieur zu werden.",
+        "dip": "Abschluss in Informatik",
+        "dipDesc": "Bis 2025, Insha-Allah, strebe ich meinen Abschluss in Informatik von der École Nationale des Sciences Appliquées de Fès (ENSAF) an. Ich bin entschlossen, das Studienprogramm mit Entschlossenheit und Engagement zu absolvieren, um die erforderlichen Fähigkeiten zu erwerben, um in diesem sich ständig weiterentwickelnden Bereich erfolgreich zu sein. Mein Ziel ist es, zur technologischen Innovation beizutragen und ein kompetenter und erfolgreicher Fachmann im Bereich Informatik zu werden."
+    }
 }
+
 };
 
 
