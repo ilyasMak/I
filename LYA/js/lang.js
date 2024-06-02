@@ -39,8 +39,38 @@ const resources = {
             sp: "Specialization in Computer Engineering",
             spDesc: "After two years in scientific preparatory class, I joined the Computer Engineering specialization in my engineering school, ranking among the top 40 of my class. It is a significant step in my academic journey, and I am thrilled to have the opportunity to delve into the in-depth study of computer science. I am motivated to tackle the challenges that lie ahead and develop my skills to become a competent and accomplished computer engineer.",
             dip: "Graduated in Computer Engineering",
-            dipDesc: "By 2025, Insha'Allah, I aspire to obtain my Bachelor's degree in Computer Engineering from the National School of Applied Sciences of Fes (ENSAF). I am determined to pursue the study program with determination and commitment to acquire the skills necessary to excel in this constantly evolving field. My ambition is to contribute to technological innovation and become a competent and accomplished professional in the field of computer science."
-     
+            dipDesc: "By 2025, Insha'Allah, I aspire to obtain my Bachelor's degree in Computer Engineering from the National School of Applied Sciences of Fes (ENSAF). I am determined to pursue the study program with determination and commitment to acquire the skills necessary to excel in this constantly evolving field. My ambition is to contribute to technological innovation and become a competent and accomplished professional in the field of computer science.",
+     //----------------------------
+     FrontEnd: "FrontEnd",
+     langProg: "Programming Language",
+     BD: "Database",
+     Framworks: "Frameworks",
+     BackEnd: "BackEnd",
+     BI: "BI and Data Analysis",
+     concDW: "Data Warehouse Design",
+     SIG: "Geographic Information System",
+     Res: "System and Network Administration",
+     AI: "Artificial Intelligence",
+     autre: "Other Technical Skills",
+     merise: "MERISE Design",
+     uml: "UML Modeling",
+     PP: "Projects and Career Path",
+     AppCon: "Application of Knowledge",
+     projet: "Completed Project",
+     parcour: "Academic Path",
+     h: "Hours",
+     p: "Projects",
+     cof: "Cups of Coffee",
+     certifs: "Certifications Obtained",
+     programmation: "Programming",
+     langues: "Languages",
+     contactMe: "Contact Me",
+     suivMoi: "Follow Me",
+     UcanF: "You can follow or send me a message on my social networks",
+     a: "Address",
+     maison: "N 24 RUE 01 HY KARIMA",
+     contINFO: "CONTACT INFO",
+     send: "Send"
 
        
         }
@@ -88,7 +118,39 @@ const resources = {
      spDesc  : "   Après deux années en classe préparatoire scientifique, j'ai intégré la spécialité Génie Informatique dans mon école d'ingénieurs en étant classé parmi les 40 premiers de ma promotion. C'est une étape importante dans mon parcours académique et je suis ravi d'avoir l'opportunité de me plonger dans l'étude approfondie de l'informatique. Je suis motivé à relever les défis qui se présenteront à moi et à développer mes compétences pour devenir un ingénieur en informatique compétent et accompli.",
       dip : "Diplomé en Génie Informatique",
       dipDesc : "D'ici 2025 Insha-allah, j'aspire à obtenir mon diplôme d'ingénieur en Génie Informatique de l'École Nationale des Sciences Appliquées de Fès (ENSAF). Je suis résolu à suivre avec détermination et engagement le programme d'études afin d'acquérir les compétences nécessaires pour exceller dans ce domaine en constante évolution. Mon ambition est de contribuer à l'innovation technologique et de devenir un professionnel compétent et accompli dans le domaine de l'informatique.",
-        }
+      //---------------------------------
+      FrontEnd : 'FrontEnd',
+      langProg : 'Langage de programmation',
+      BD : 'Base de données',
+      Framworks : 'Framworks',
+      BackEnd : 'BackEnd',
+      BI  : 'BI et analyse de données',
+      concDW : 'Conception des entrepôts de données',
+      SIG : "Système d'information Géographique",
+      Res  : "Administration Systèmes et Réseaux",
+      AI : 'Intelligence artificielle',
+      autre : 'Autre compétences techniques',
+      merise : 'Conception MERISE',
+      uml : 'Modélisation UML',
+      PP : 'Projets et Parcours de',
+      AppCon : 'Application des connaissances',
+      projet : 'Projet réalisé',
+      parcour : 'Parcour Académique',
+      h : 'Heurs',
+      p : 'Projets',
+      cof : 'Tasses de café',
+      certifs : 'certification obtenue',
+      programmation : 'Programmation',
+      langues : 'Langues',
+      contactMe : 'Contacter Moi',
+      suivMoi : 'Suivre Moi' , 
+      UcanF : 'vous pouvez me suivre ou envoyer un message sur mes réseaux sociaux',
+      a : 'Addresse',
+      maison : 'N 24 RUE  01 HY KARIMA',
+      contINFO : 'CONTACT INFOS',
+      send : 'Envoyer'
+    
+    }
     },
     ar: {
         translation: {
@@ -132,6 +194,40 @@ const resources = {
             dip: "خريج في هندسة الكمبيوتر",
         
             dipDesc: "بحلول عام 2025، إن شاء الله، أتطلع للحصول على شهادة مهندس دولة في الهندسة المعلوماتية.",
+            //-------------------
+            
+                FrontEnd: "الواجهة الأمامية",
+                langProg: "لغة البرمجة",
+                BD: "قاعدة البيانات",
+                Framworks: "الأطر",
+                BackEnd: "الواجهة الخلفية",
+                BI: "تحليل البيانات وذكاء الأعمال",
+                concDW: "تصميم مستودعات البيانات",
+                SIG: "نظام المعلومات الجغرافية",
+                Res: "إدارة الأنظمة والشبكات",
+                AI: "الذكاء الاصطناعي",
+                autre: "مهارات تقنية أخرى",
+                merise: "تصميم ميريز",
+                uml: "نمذجة UML",
+                PP: "المشاريع والمسار المهني",
+                AppCon: "تطبيق المعرفة",
+                projet: "مشروع منجز",
+                parcour: "المسار الأكاديمي",
+                h: "ساعات",
+                p: "مشاريع",
+                cof: "أكواب القهوة",
+                certifs: "الشهادات المكتسبة",
+                programmation: "البرمجة",
+                langues: "اللغات",
+                contactMe: "اتصل بي",
+                suivMoi: "تابعني",
+                UcanF: "يمكنك متابعتي أو إرسال رسالة على شبكات التواصل الاجتماعي الخاصة بي",
+                a: "العنوان",
+                maison: "ن 24 شارع 01 حي كريمة",
+                contINFO: "معلومات الاتصال",
+                send: "إرسال"
+            
+            
       
     
         }
@@ -178,7 +274,40 @@ const resources = {
             sp: "Especialización en Ingeniería Informática",
             spDesc: "Después de dos años en la clase preparatoria científica, me uní a la especialización en Ingeniería Informática en mi escuela de ingeniería, clasificándome entre los 40 mejores de mi promoción. Es un paso significativo en mi trayectoria académica y estoy encantado de tener la oportunidad de sumergirme en el estudio profundo de la informática. Estoy motivado para enfrentar los desafíos que se me presenten y desarrollar mis habilidades para convertirme en un ingeniero informático competente y exitoso.",
             dip: "Graduado en Ingeniería Informática",
-            dipDesc: "Para 2025, Insha'Allah, aspiro a obtener mi licenciatura en Ingeniería Informática de la Escuela Nacional de Ciencias Aplicadas de Fes (ENSAF). Estoy decidido a seguir el programa de estudios con determinación y compromiso para adquirir las habilidades necesarias para sobresalir en este campo en constante evolución. Mi ambición es contribuir a la innov"
+            dipDesc: "Para 2025, Insha'Allah, aspiro a obtener mi licenciatura en Ingeniería Informática de la Escuela Nacional de Ciencias Aplicadas de Fes (ENSAF). Estoy decidido a seguir el programa de estudios con determinación y compromiso para adquirir las habilidades necesarias para sobresalir en este campo en constante evolución. Mi ambición es contribuir a la innov",
+      //----------------------------
+      FrontEnd: "FrontEnd",
+      langProg: "Lenguaje de programación",
+      BD: "Base de datos",
+      Framworks: "Frameworks",
+      BackEnd: "BackEnd",
+      BI: "BI y análisis de datos",
+      concDW: "Diseño de almacenes de datos",
+      SIG: "Sistema de Información Geográfica",
+      Res: "Administración de sistemas y redes",
+      AI: "Inteligencia artificial",
+      autre: "Otras habilidades técnicas",
+      merise: "Diseño MERISE",
+      uml: "Modelado UML",
+      PP: "Proyectos y trayectoria",
+      AppCon: "Aplicación del conocimiento",
+      projet: "Proyecto realizado",
+      parcour: "Trayectoria académica",
+      h: "Horas",
+      p: "Proyectos",
+      cof: "Tazas de café",
+      certifs: "Certificaciones obtenidas",
+      programmation: "Programación",
+      langues: "Idiomas",
+      contactMe: "Contáctame",
+      suivMoi: "Sígueme",
+      UcanF: "Puedes seguirme o enviarme un mensaje en mis redes sociales",
+      a: "Dirección",
+      maison: "N 24 RUE 01 HY KARIMA",
+      contINFO: "INFORMACIÓN DE CONTACTO",
+      send: "Enviar"
+      
+      
         }
 },
     al:{
@@ -221,7 +350,38 @@ const resources = {
         "sp": "Spezialisierung in Informatik",
         "spDesc": "Nach zwei Jahren in einem wissenschaftlichen Vorbereitungskurs habe ich mich für die Spezialisierung Informatik an meiner Ingenieursschule entschieden und gehöre zu den besten 40 meiner Klasse. Dies ist ein wichtiger Meilenstein in meiner akademischen Laufbahn, und ich freue mich darauf, mich intensiv mit Informatik zu beschäftigen. Ich bin motiviert, den Herausforderungen zu begegnen, die auf mich zukommen, und meine Fähigkeiten zu entwickeln, um ein kompetenter und erfolgreicher Informatikingenieur zu werden.",
         "dip": "Abschluss in Informatik",
-        "dipDesc": "Bis 2025, Insha-Allah, strebe ich meinen Abschluss in Informatik von der École Nationale des Sciences Appliquées de Fès (ENSAF) an. Ich bin entschlossen, das Studienprogramm mit Entschlossenheit und Engagement zu absolvieren, um die erforderlichen Fähigkeiten zu erwerben, um in diesem sich ständig weiterentwickelnden Bereich erfolgreich zu sein. Mein Ziel ist es, zur technologischen Innovation beizutragen und ein kompetenter und erfolgreicher Fachmann im Bereich Informatik zu werden."
+        "dipDesc": "Bis 2025, Insha-Allah, strebe ich meinen Abschluss in Informatik von der École Nationale des Sciences Appliquées de Fès (ENSAF) an. Ich bin entschlossen, das Studienprogramm mit Entschlossenheit und Engagement zu absolvieren, um die erforderlichen Fähigkeiten zu erwerben, um in diesem sich ständig weiterentwickelnden Bereich erfolgreich zu sein. Mein Ziel ist es, zur technologischen Innovation beizutragen und ein kompetenter und erfolgreicher Fachmann im Bereich Informatik zu werden.",
+        //--------------------------------
+        FrontEnd: "FrontEnd",
+        langProg: "Programmiersprache",
+        BD: "Datenbank",
+        Framworks: "Frameworks",
+        BackEnd: "BackEnd",
+        BI: "BI und Datenanalyse",
+        concDW: "Datenbankentwurf",
+        SIG: "Geoinformationssystem",
+        Res: "System- und Netzwerkadministration",
+        AI: "Künstliche Intelligenz",
+        autre: "Weitere technische Fähigkeiten",
+        merise: "MERISE-Design",
+        uml: "UML-Modellierung",
+        PP: "Projekte und Karriereweg",
+        AppCon: "Anwendung von Wissen",
+        projet: "Abgeschlossenes Projekt",
+        parcour: "Akademischer Weg",
+        h: "Stunden",
+        p: "Projekte",
+        cof: "Tassen Kaffee",
+        certifs: "Zertifizierungen",
+        programmation: "Programmierung",
+        langues: "Sprachen",
+        contactMe: "Kontaktiere mich",
+        suivMoi: "Folge mir",
+        UcanF: "Sie können mir folgen oder eine Nachricht in meinen sozialen Netzwerken senden",
+        a: "Adresse",
+        maison: "N 24 RUE 01 HY KARIMA",
+        contINFO: "KONTAKTINFO",
+        send: "Senden"
     }
 }
 
