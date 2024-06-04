@@ -70,8 +70,16 @@ const resources = {
      a: "Address",
      maison: "N 24 RUE 01 HY KARIMA",
      contINFO: "CONTACT INFO",
-     send: "Send"
+     //------------------------
+     StIni: "Initiation Internship",
+StIniDesc: "Development of a web application for hotel search.",
+entr1: "ArtiWeb Digital Marketing Center Fez",
+dateSt1: "July 2023",
+StPFA: "PFA Application Internship",
+StPFAdesc: "I am looking for a two-month end-of-year internship for summer 2024.",
+StPFE: "PFE Internship"
 
+    
        
         }
     },
@@ -148,7 +156,16 @@ const resources = {
       a : 'Addresse',
       maison : 'N 24 RUE  01 HY KARIMA',
       contINFO : 'CONTACT INFOS',
-      send : 'Envoyer'
+      send : 'Envoyer',
+     
+      /*--------------------------------------------------------------------*/
+      StIni : "Stage d'initiation ",
+      StIniDesc : "Développement d'une application web permettant la recherche d'hôtels.",
+      entr1 : "Centre de marketing digitale ArtiWeb Fés",
+      dateSt1 : "Juillet 2023",
+      StPFA : "Stage d'application PFA",
+      StPFAdesc : "Je suis à la rechercher d'un stage de fin d'année de deux mois pour l'été 2024",
+      StPFE : "Stage PFE"
     
     }
     },
@@ -225,10 +242,16 @@ const resources = {
                 a: "العنوان",
                 maison: "ن 24 شارع 01 حي كريمة",
                 contINFO: "معلومات الاتصال",
-                send: "إرسال"
-            
-            
-      
+                send: "إرسال",
+                //------------------------------------------
+                StIni: "تدريب تمهيدي",
+                StIniDesc: "تطوير تطبيق ويب للبحث عن الفنادق.",
+                entr1: "مركز التسويق الرقمي ArtiWeb فاس",
+                dateSt1: "يوليو 2023",
+                StPFA: "تدريب تطبيق PFA",
+                StPFAdesc: "أبحث عن تدريب نهاية السنة لمدة شهرين لصيف 2024.",
+                StPFE: "تدريب مشروع نهاية الدراسة"
+
     
         }
     },
@@ -305,7 +328,17 @@ const resources = {
       a: "Dirección",
       maison: "N 24 RUE 01 HY KARIMA",
       contINFO: "INFORMACIÓN DE CONTACTO",
-      send: "Enviar"
+      send: "Enviar" , 
+      //-----------------------------------------
+      StIni: "Pasantía de Iniciación",
+StIniDesc: "Desarrollo de una aplicación web para la búsqueda de hoteles.",
+entr1: "Centro de Marketing Digital ArtiWeb Fez",
+dateSt1: "Julio 2023",
+StPFA: "Pasantía de Aplicación PFA",
+StPFAdesc: "Estoy buscando una pasantía de fin de año de dos meses para el verano de 2024.",
+StPFE: "Pasantía PFE"
+
+
       
       
         }
@@ -381,7 +414,17 @@ const resources = {
         a: "Adresse",
         maison: "N 24 RUE 01 HY KARIMA",
         contINFO: "KONTAKTINFO",
-        send: "Senden"
+        send: "Senden" , 
+        //-----------------------------
+        StIni: "Einführungspraktikum",
+StIniDesc: "Entwicklung einer Webanwendung zur Hotelsuche.",
+entr1: "ArtiWeb Digital Marketing Center Fès",
+dateSt1: "Juli 2023",
+StPFA: "PFA-Anwendungspraktikum",
+StPFAdesc: "Ich suche ein zweimonatiges Praktikum zum Jahresende für den Sommer 2024.",
+StPFE: "PFE-Praktikum"
+
+
     }
 }
 
