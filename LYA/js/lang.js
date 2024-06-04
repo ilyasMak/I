@@ -3,6 +3,10 @@ const resources = {
         translation: {
             lang : 'English',
             home: 'Home',
+            exp: "Experiences",
+comp: "Skills",
+prjs: "Projects",
+parc: "Career Path",
             pers: 'Personal',
             prof: 'Professional',
             contact: 'Contact',
@@ -87,6 +91,10 @@ StPFE: "PFE Internship"
         translation: {
             lang : 'Francais',
             home: 'Accueil',
+            exp : "Expériences",
+            comp : "Compétences",
+            prjs : "Projets",
+            parc : "Parcours",
             pers: 'Personnel',
             prof: 'Professionnel',
             contact: 'Contact',
@@ -173,6 +181,11 @@ StPFE: "PFE Internship"
         translation: {
             lang : 'العربية',
             home: 'الصفحة الرئيسية',
+            exp: "الخبرات",
+comp: "المهارات",
+prjs: "المشاريع",
+parc: "المسار المهني"
+,
             pers: 'شخصي',
             prof: 'مهني',
             contact: 'اتصل',
@@ -261,6 +274,11 @@ StPFE: "PFE Internship"
         translation: {
             lang: 'español',
             home: 'Inicio',
+            exp: "Experiencias",
+comp: "Habilidades",
+prjs: "Proyectos",
+parc: "Trayectoria"
+,
             pers: 'Personal',
             prof: 'Profesional',
             contact: 'Contacto',
@@ -347,6 +365,11 @@ StPFE: "Pasantía PFE"
     "translation": {
         "lang": "Deutsch",
         "home": "Startseite",
+        exp: "Erfahrungen",
+comp: "Kompetenzen",
+prjs: "Projekte",
+parc: "Werdegang"
+,
         "pers": "Persönlich",
         "prof": "Beruflich",
         "contact": "Kontakt",
